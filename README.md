@@ -1,6 +1,6 @@
 # C+ IDE - Advanced C+ Development Environment
 
-![C+ IDE Version](https://img.shields.io/badge/C%2B%20IDE-v1.0-blue)
+![C+ IDE Version](https://img.shields.io/badge/C%2B_IDE_-2025_1.0-blue)
 ![C+ Language](https://img.shields.io/badge/C%2B%20Language-v0.1-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/License-Proprietary-red)
