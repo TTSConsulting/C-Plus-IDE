@@ -1,0 +1,10 @@
+// New C+ File
+// Created with C+ IDE
+
+#include <iostream>
+using namespace std;
+
+func main() {
+    printLine("Hello, World!");
+    return 0;
+}
