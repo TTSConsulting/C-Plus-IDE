@@ -266,3 +266,8 @@ All rights reserved.
 
 **C+ IDE v1.0** - *Advanced C+ Development Environment*  
 *Built for professional C+ development on Windows*
+
+**NOTES**:
+
+- Requires g++ 6.3.0 and GDB 7.6.1
+- .CPlus (C+ Version of .NET) Features are not out yet!
