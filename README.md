@@ -161,7 +161,7 @@ C+ IDE
 
 ## Version History
 
-### **Version 1.0** (Current)
+### **Version 2025 1.0** (Current)
 - ✅ Complete C+ IDE implementation
 - ✅ Real compilation and execution
 - ✅ GDB debugging integration
@@ -264,7 +264,7 @@ All rights reserved.
 
 ---
 
-**C+ IDE v1.0** - *Advanced C+ Development Environment*  
+**C+ IDE 2025 v1.0** - *Advanced C+ Development Environment*  
 *Built for professional C+ development on Windows*
 
 **NOTES**:
