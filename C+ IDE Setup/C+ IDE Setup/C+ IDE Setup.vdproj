@@ -210,7 +210,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:C+ IDE Setup"
         "ProductCode" = "8:{AB9E7120-CE64-4694-9A61-91A341AF1B96}"
-        "PackageCode" = "8:{8B18447C-95D4-4AE4-A544-AEFEA8C2D00E}"
+        "PackageCode" = "8:{8C1EF190-E1B7-4F7C-8E02-E247328F8A7E}"
         "UpgradeCode" = "8:{29938DBE-19A8-46A4-831C-239A8FC1DE39}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -330,6 +330,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_502DFAF6C19441608F51F251C03D3C53"
+            {
+            "Name" = "8:C+ IDE"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_B1B63A0C833040ABB4A3814A07EAE508"
+            "Folder" = "8:_B8AC91C46BDE41F1827211B497D5E767"
+            "WorkingFolder" = "8:_1A034A114DE54116BDDC38465B3288A6"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_90E0E015EF8B4D4ABEFE2FBCC2E677F9"
+            {
+            "Name" = "8:C+ IDE"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_B1B63A0C833040ABB4A3814A07EAE508"
+            "Folder" = "8:_45C0A68B281E4A41B21C7E0ECB51CCCD"
+            "WorkingFolder" = "8:_1A034A114DE54116BDDC38465B3288A6"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
