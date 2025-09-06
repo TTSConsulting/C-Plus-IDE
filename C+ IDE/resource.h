@@ -12,6 +12,7 @@
 #define IDI_SMALL                       108
 #define IDC_CIDE                        109
 #define IDR_MAINFRAME                   128
+#define IDC_EDIT2                       1001
 #define ID_FILE_NEWFILE                 32771
 #define ID_FILE_NEWPROJECT              32772
 #define ID_NEWPROJECT_NEWC              32773
@@ -23,6 +24,8 @@
 #define ID__OPEN                        32779
 #define ID_FILE_OPENFILE                32780
 #define ID_FILE_SAVEFILE                32781
+#define ID_RUN_DEBUG                    32782
+#define ID_RUN_RUN                      32783
 #define IDC_STATIC                      -1
 
 // Next default values for new objects
@@ -31,8 +34,8 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NO_MFC                     1
 #define _APS_NEXT_RESOURCE_VALUE        129
-#define _APS_NEXT_COMMAND_VALUE         32782
-#define _APS_NEXT_CONTROL_VALUE         1000
+#define _APS_NEXT_COMMAND_VALUE         32784
+#define _APS_NEXT_CONTROL_VALUE         1002
 #define _APS_NEXT_SYMED_VALUE           110
 #endif
 #endif
