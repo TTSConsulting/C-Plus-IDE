@@ -1,0 +1,11 @@
+// Test C+ Program for File Association
+// This file demonstrates the file association feature
+
+#include <iostream>
+using namespace std;
+
+func main() {
+    printLine("File association test successful!");
+    printLine("C+ IDE opened this file automatically.");
+    return 0;
+}

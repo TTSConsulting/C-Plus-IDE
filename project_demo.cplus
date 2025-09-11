@@ -1,0 +1,42 @@
+# C+ IDE Project Explorer Demo
+# This project demonstrates all the new features
+
+func main() {
+    printLine("=== C+ IDE v1.0 Project Explorer Demo ===")
+    printLine("")
+    
+    printLine("🚀 NEW FEATURES:")
+    printLine("  ✅ Visual Studio-style Project Explorer")
+    printLine("  ✅ .cplusproj project file support")
+    printLine("  ✅ Tree view interface with file navigation")
+    printLine("  ✅ File association for .cplus files")
+    printLine("  ✅ Command-line file opening")
+    printLine("  ✅ Automatic project file management")
+    printLine("")
+    
+    printLine("📁 PROJECT STRUCTURE:")
+    printLine("  • MyProject.cplusproj")
+    printLine("  • main.cplus (this file)")
+    printLine("  • utils.cplus (utility functions)")
+    printLine("  • constants.cplus (project constants)")
+    printLine("")
+    
+    printLine("🔧 HOW TO USE:")
+    printLine("  1. Create Project: File → New Project")
+    printLine("  2. Open Project: Open → C+ Project (F9)")
+    printLine("  3. Navigate Files: Double-click in Project Explorer")
+    printLine("  4. Auto-Add Files: Save new files to add automatically")
+    printLine("  5. Right-Click: Context menu for project operations")
+    printLine("")
+    
+    printLine("💡 TIPS:")
+    printLine("  • Project Explorer is resizable (25% default width)")
+    printLine("  • Double-click .cplus files in Windows Explorer")
+    printLine("  • Use 'Open With' menu for file associations")
+    printLine("  • Projects auto-save when files are added/removed")
+    printLine("")
+    
+    printLine("Demo complete! Enjoy the new Project Explorer! 🎉")
+    
+    return 0
+}

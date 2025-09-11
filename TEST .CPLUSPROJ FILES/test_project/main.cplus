@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+
+func main() {
+    printLine("Hello, World!");
+    return 0;
+}

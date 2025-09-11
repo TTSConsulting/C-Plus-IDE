@@ -1,0 +1,50 @@
+Windows Registry Editor Version 5.00
+
+; C+ IDE File Association Registry Script
+; This script registers .cplus files to open with C+ IDE
+; Run this as administrator if the automatic registration doesn't work
+
+; Register .cplus file extension
+[HKEY_CURRENT_USER\Software\Classes\.cplus]
+@="CPlusFile"
+
+; Register CPlusFile file type
+[HKEY_CURRENT_USER\Software\Classes\CPlusFile]
+@="C+ Source File"
+
+; Set default icon (update path to your C+ IDE.exe location)
+[HKEY_CURRENT_USER\Software\Classes\CPlusFile\DefaultIcon]
+@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\",0"
+
+; Register shell open command (update path to your C+ IDE.exe location)
+[HKEY_CURRENT_USER\Software\Classes\CPlusFile\shell\open\command]
+@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\" \"%1\""
+
+; Register "Edit with C+ IDE" context menu option
+[HKEY_CURRENT_USER\Software\Classes\CPlusFile\shell\edit]
+@="Edit with C+ IDE"
+
+[HKEY_CURRENT_USER\Software\Classes\CPlusFile\shell\edit\command]
+@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\" \"%1\""
+
+; Alternative registration for all users (requires administrator rights)
+; Uncomment these lines and comment out the HKEY_CURRENT_USER entries above
+; if you want system-wide file association
+
+;[HKEY_CLASSES_ROOT\.cplus]
+;@="CPlusFile"
+
+;[HKEY_CLASSES_ROOT\CPlusFile]
+;@="C+ Source File"
+
+;[HKEY_CLASSES_ROOT\CPlusFile\DefaultIcon]
+;@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\",0"
+
+;[HKEY_CLASSES_ROOT\CPlusFile\shell\open\command]
+;@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\" \"%1\""
+
+;[HKEY_CLASSES_ROOT\CPlusFile\shell\edit]
+;@="Edit with C+ IDE"
+
+;[HKEY_CLASSES_ROOT\CPlusFile\shell\edit\command]
+;@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\" \"%1\""

@@ -16,6 +16,9 @@ C+ IDE is a professional, feature-rich integrated development environment specif
 - **Real-Time Compilation** with g++ 6.3.0 integration
 - **Interactive Debugging** with GDB 7.6.1 support
 - **File Management** for .cplus files (Create, Open, Save)
+- **Project Explorer** - Visual Studio-style project management with .cplusproj files
+- **File Association** - .cplus files open automatically with C+ IDE
+- **Command-Line Support** - Open files directly: `"C+ IDE.exe" "file.cplus"`
 - **Terminal Output** with timestamped compilation results
 - **Professional UI** with resizable panels and modern fonts
 
@@ -44,6 +47,7 @@ C+ IDE is a professional, feature-rich integrated development environment specif
 | **Windows** | 10/11 | Operating system |
 
 ### **Installation Prerequisites**
+
 1. **MinGW with g++ 6.3.0**
    ```bash
    mingw-get install gcc g++
@@ -55,6 +59,12 @@ C+ IDE is a professional, feature-rich integrated development environment specif
    ```
 
 3. **Visual Studio Build Tools** (for IDE compilation)
+
+4. **File Association** (automatic on first launch)
+   - C+ IDE automatically registers .cplus file association
+   - Right-click any .cplus file → "Open With" → C+ IDE will appear
+   - Double-click .cplus files to open directly in C+ IDE
+   - Use `register_cplus_files.reg` for manual registration if needed
 
 ## Quick Start
 
@@ -86,6 +96,19 @@ func main() {
 ### 4. **Debug Your Code**
 - Press `F10` or go to **Run > Debug**
 - Step through your code with GDB integration
+
+### 5. **Command-Line Usage**
+- **Open file directly**: `"C+ IDE.exe" "path\to\file.cplus"`
+- **From Windows Explorer**: Double-click any .cplus file
+- **Context menu**: Right-click .cplus file → "Open with" → C+ IDE
+- **Edit option**: Right-click .cplus file → "Edit with C+ IDE"
+
+### 6. **Project Management**
+- **Create New Project**: File > New Project → Choose location for .cplusproj file
+- **Open Existing Project**: Open > C+ Project (F9) → Select .cplusproj file
+- **Project Explorer**: Left panel shows project structure like Visual Studio Solution Explorer
+- **Auto-Add Files**: Opening or saving .cplus files automatically adds them to current project
+- **Project Structure**: Tree view with project name and all associated .cplus files
 
 ## Keyboard Shortcuts
 
@@ -144,12 +167,14 @@ printLine("Text to display");
 ```
 C+ IDE
 ├── Win32 Application Framework
+├── Project Explorer (Tree View)
 ├── Text Editor with Line Numbers
 ├── Terminal Output Window
 ├── C+ Language Translator
 ├── g++ Compiler Integration
 ├── GDB Debugger Interface
-└── File Management System
+├── File Management System
+└── Project Management (.cplusproj)
 ```
 
 ### **Translation Process**
@@ -169,6 +194,11 @@ C+ IDE
 - ✅ Version-controlled toolchain
 - ✅ File management system
 - ✅ Terminal output with timestamps
+- ✅ File association for .cplus files
+- ✅ Command-line file opening support
+- ✅ "Open With" menu integration
+- ✅ Project Explorer with .cplusproj support
+- ✅ Visual Studio-style project management
 
 ### **C+ Language 0.1** (Current)
 - ✅ `func main()` syntax
@@ -220,6 +250,17 @@ mingw-get install gdb=7.6.1
 
 **Solution**: Check About dialog for requirements
 
+#### **File Association Not Working**
+**Possible Causes**:
+- User permissions insufficient
+- Registry write access denied
+- Previous file associations conflict
+
+**Solutions**:
+1. Run C+ IDE as administrator once to register associations
+2. Use the provided `register_cplus_files.reg` file
+3. Manually set file association in Windows Settings
+
 ### **Getting Help**
 1. Check **Help > About** for version requirements
 2. Verify PATH includes `C:\MinGW\bin`
@@ -242,13 +283,15 @@ msbuild "C+ IDE.sln" /p:Configuration=Debug /p:Platform=x64
 ### **Project Structure**
 ```
 C+ IDE/
-├── C+ IDE.cpp          # Main application source
-├── C+ IDE.h           # Header definitions
-├── C+ IDE.rc          # Resource file (dialogs, menus)
-├── framework.h        # Windows framework headers
-├── resource.h         # Resource constants
-├── C+ IDE.ico         # Application icon
-└── README.md          # This file
+├── C+ IDE.cpp                  # Main application source
+├── C+ IDE.h                   # Header definitions
+├── C+ IDE.rc                  # Resource file (dialogs, menus)
+├── framework.h                # Windows framework headers
+├── resource.h                 # Resource constants
+├── C+ IDE.ico                 # Application icon
+├── README.md                  # Documentation
+├── register_cplus_files.reg   # Registry script for file association
+└── RELEASE_NOTES_v1.0.md      # Release notes
 ```
 
 ## License
