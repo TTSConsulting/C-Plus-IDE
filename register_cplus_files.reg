@@ -14,18 +14,18 @@ Windows Registry Editor Version 5.00
 
 ; Set default icon (update path to your C+ IDE.exe location)
 [HKEY_CURRENT_USER\Software\Classes\CPlusFile\DefaultIcon]
-@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\",0"
+@="\"C:\\Program Files (x86)\\tadeotherocketbuilder@outlook.com\\C+ IDE Setup\\C+ IDE\\2025\\1.1\\C+ IDE.exe\",0"
 
 ; Register shell open command (update path to your C+ IDE.exe location)
 [HKEY_CURRENT_USER\Software\Classes\CPlusFile\shell\open\command]
-@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\" \"%1\""
+@="\"C:\\Program Files (x86)\\tadeotherocketbuilder@outlook.com\\C+ IDE Setup\\C+ IDE\\2025\\1.1\\C+ IDE.exe\" \"%1\""
 
 ; Register "Edit with C+ IDE" context menu option
 [HKEY_CURRENT_USER\Software\Classes\CPlusFile\shell\edit]
 @="Edit with C+ IDE"
 
 [HKEY_CURRENT_USER\Software\Classes\CPlusFile\shell\edit\command]
-@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\" \"%1\""
+@="\"C:\\Program Files (x86)\\tadeotherocketbuilder@outlook.com\\C+ IDE Setup\\C+ IDE\\2025\\1.1\\C+ IDE.exe\" \"%1\""
 
 ; Alternative registration for all users (requires administrator rights)
 ; Uncomment these lines and comment out the HKEY_CURRENT_USER entries above
@@ -38,13 +38,13 @@ Windows Registry Editor Version 5.00
 ;@="C+ Source File"
 
 ;[HKEY_CLASSES_ROOT\CPlusFile\DefaultIcon]
-;@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\",0"
+;@="\"C:\\Program Files (x86)\\tadeotherocketbuilder@outlook.com\\C+ IDE Setup\\C+ IDE\\2025\\1.1\\C+ IDE.exe\",0"
 
 ;[HKEY_CLASSES_ROOT\CPlusFile\shell\open\command]
-;@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\" \"%1\""
+;@="\"C:\\Program Files (x86)\\tadeotherocketbuilder@outlook.com\\C+ IDE Setup\\C+ IDE\\2025\\1.1\\C+ IDE.exe\" \"%1\""
 
 ;[HKEY_CLASSES_ROOT\CPlusFile\shell\edit]
 ;@="Edit with C+ IDE"
 
 ;[HKEY_CLASSES_ROOT\CPlusFile\shell\edit\command]
-;@="\"C:\\Program Files\\C+ IDE\\C+ IDE.exe\" \"%1\""
+;@="\"C:\\Program Files (x86)\\tadeotherocketbuilder@outlook.com\\C+ IDE Setup\\C+ IDE\\2025\\1.1\\C+ IDE.exe\" \"%1\""
