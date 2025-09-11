@@ -267,7 +267,7 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:C+ IDE Setup"
-        "ProductCode" = "8:{AB9E7120-CE64-4694-9A61-91A341AF1B96}"
+        "ProductCode" = "8:{883A42FA-28A6-4903-B3B6-12F4BC8BDB3D}"
         "PackageCode" = "8:{7496B3B3-1254-47DF-B704-8DA039F7CB39}"
         "UpgradeCode" = "8:{29938DBE-19A8-46A4-831C-239A8FC1DE39}"
         "AspNetVersion" = "8:2.0.50727.0"
