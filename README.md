@@ -1,13 +1,13 @@
 # C+ IDE - Advanced C+ Development Environment
 
-![C+ IDE Version](https://img.shields.io/badge/C%2B_IDE_-2025_1.0-blue)
-![C+ Language](https://img.shields.io/badge/C%2B%20Language-v0.1-green)
+![C+ IDE Version](https://img.shields.io/badge/C%2B_IDE_-2025_1.1-blue)
+![C+ Language](https://img.shields.io/badge/C%2B%20Language-v0.2-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 ![License](https://img.shields.io/badge/License-Proprietary-red)
 
 ## Overview
 
-C+ IDE is a professional, feature-rich integrated development environment specifically designed for the C+ programming language. Built with modern Windows APIs and featuring real-time compilation, debugging capabilities, and an intuitive user interface.
+C+ IDE is a professional, feature-rich integrated development environment specifically designed for the C+ programming language. Built with modern Windows APIs and featuring real-time compilation, debugging capabilities, an intuitive user interface, and integrated Windows Console Host for authentic terminal experience.
 
 ## Features
 
@@ -15,11 +15,13 @@ C+ IDE is a professional, feature-rich integrated development environment specif
 - **Syntax-Aware Editor** with line numbers and auto-scrolling
 - **Real-Time Compilation** with g++ 6.3.0 integration
 - **Interactive Debugging** with GDB 7.6.1 support
+- **Windows Console Host Integration** - Real cmd.exe terminal with live command execution
+- **Dual Terminal Layout** - Separate input/output panels with real-time command processing
+- **Git Integration** - Dedicated Git GUI with status, history, and repository management
 - **File Management** for .cplus files (Create, Open, Save)
 - **Project Explorer** - Visual Studio-style project management with .cplusproj files
 - **File Association** - .cplus files open automatically with C+ IDE
 - **Command-Line Support** - Open files directly: `"C+ IDE.exe" "file.cplus"`
-- **Terminal Output** with timestamped compilation results
 - **Professional UI** with resizable panels and modern fonts
 
 ### 🔧 **C+ Language Support**
@@ -35,6 +37,14 @@ C+ IDE is a professional, feature-rich integrated development environment specif
 - **Professional Debugging** (GDB 7.6.1 required)
 - **Project Templates** with starter code
 - **Multiple Output Formats** (GUI and CLI project support)
+- **AI Integration Framework** - C+ Copilot AI infrastructure (in development)
+
+### 💻 **Terminal & Git Features**
+- **Integrated Console Host** - Real Windows cmd.exe process with pipe communication
+- **Background Command Processing** - Thread-safe terminal output handling
+- **Git GUI Interface** - Dedicated window for repository management
+- **Git Status & History** - View repository state and commit history
+- **Real-time Command Execution** - Live terminal input/output with automatic console startup
 
 ## System Requirements
 
@@ -131,6 +141,13 @@ func main() {
 - **Save File (Ctrl+S)** - Save current file
 - **Exit** - Close IDE
 
+### **Git Menu**
+- **Open Git Window** - Launch dedicated Git GUI interface
+- **Git Status** - View repository status and changes
+- **Git History** - View commit history and logs
+- **View Git Log** - Detailed commit information
+- **Diff View** - Compare file changes
+
 ### **Make Menu**
 - **GUI Project (F6)** - Create graphical application project
 - **CLI Project (F11)** - Create command-line application project
@@ -186,7 +203,18 @@ C+ IDE
 
 ## Version History
 
-### **Version 2025 1.0** (Current)
+### **Version 2025 1.1** (Current)
+- ✅ Windows Console Host Integration - Real cmd.exe terminal experience
+- ✅ Enhanced Git GUI - Dedicated Git window with status and history
+- ✅ Dual Terminal Layout - Separate input/output panels
+- ✅ Background Command Processing - Thread-safe terminal handling
+- ✅ Professional Terminal Interface - Execute button and real-time output
+- ✅ Git Status & History Viewing - Repository management tools
+- ✅ AI Integration Framework - C+ Copilot AI infrastructure (in development)
+- ✅ Improved File Association - Enhanced registry integration
+- ✅ Version 1.1 Installer - Updated deployment package
+
+### **Version 2025 1.0** (Previous)
 - ✅ Complete C+ IDE implementation
 - ✅ Real compilation and execution
 - ✅ GDB debugging integration
@@ -307,10 +335,11 @@ All rights reserved.
 
 ---
 
-**C+ IDE 2025 v1.0** - *Advanced C+ Development Environment*  
-*Built for professional C+ development on Windows*
+**C+ IDE 2025 v1.1** - *Advanced C+ Development Environment*  
+*Built for professional C+ development on Windows with integrated Console Host and Git GUI*
 
 **NOTES**:
 
 - Requires g++ 6.3.0 and GDB 7.6.1
 - .CPlus (C+ Version of .NET) Features are not out yet!
+- C+ Copilot AI is currently in development and not yet available in v1.1
